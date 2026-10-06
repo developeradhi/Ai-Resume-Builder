@@ -178,7 +178,7 @@ export async function POST(request: NextRequest) {
         success: false,
         error: {
           code: "RESUME_CREATION_FAILED",
-          message: error.message || "Failed to create resume.",
+          message: "Failed to create resume.",
         },
       },
       { status: 500 }
